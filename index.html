@@ -1,1 +1,259 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Bartosz Jaroszkowski - CV</title>
+  </head>
+  <body>
+      <!-- Header -->
+    <header>
+        <div class="container container-header">
+      <div class="logo">
+          <img src="img/logo.png" alt="">
+      </div>
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#cv">Skills</a>
+          </li>
+          <li class="menu-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+        <span class="hamburger"></span>
+        </div>
+    </header>
+
+    <!-- About me -->
+    <section id="about">
+        <h1 class="section-title">About me</h1>
+        <div class="container container-about">
+            <div class="top">
+                <h2 class="title-about">Bartosz Jaroszkowski</h1>
+                <p class="subtitle-about">Mathematician/Programmer</p>
+                <img src="img/portrait.jpg" alt="portrait">
+            </div>
+            <div class="bot">
+	I am a mathematician on the verge of finishing my PhD focused on numerical
+    analysis. My current aim is to translate the knowledge and experience
+    gained during the research on novel numerical methods into software
+    design setting. My potential employer would benefit from my analytical
+    mind and mathematical expertise allowing to diversify approach to problem solving.
+            </div>
+        </div>
+    </section>
+
+    <section class="dark" id="cv">
+        <h1 class="section-title">Skills&Education</h1>
+        <div class="container container-cv">
+            <div class="left">
+                <div class="education">
+                    <h2 class="cv-section-title">Education</h2>
+                    <ul class="cv-list">
+                        <li>
+                            <h3 class="cv-item-title">PhD in Mathematics</h3>
+                            <p class="cv-item-subtitle">University of Sussex
+                            <span>2016-2021</span> </p>
+                            <p>As an Associate Tutor I organized workshops for
+                            first and seconf year students.</p>
+                        </li>
+                        <li>
+                            <h3 class="cv-item-title">BSc (Hons) in Mathematics</h3>
+                            <p class="cv-item-subtitle">Heriot-Watt
+                            University <span>2012-2016</span></p>
+                            <p>Graduated with First Class Honours.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2 class="cv-section-title">Skills</h2>
+                    <h3 class="cv-subsection-title">Programming</h3>
+                    <ul class="cv-list">
+                        <li>
+                        <h3 class="cv-item-title">Python
+                            <span class="rating">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            </span>
+                        </h3>
+                        <p>Data Science: NumPy, SciPy, Matplolib, Pandas</p>
+                        <p>Webdev: Django, Flask</p>
+                        </li>
+                        <li>
+                        <h3 class="cv-item-title">Java
+                            <span class="rating">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            </span>
+                        </h3>
+                        </h3>
+                        <p>Spring, Maven, Gradle</p>
+                        </li>
+                        <li>
+                        <h3 class="cv-item-title">C++
+                            <span class="rating">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            </span>
+                        </h3>
+                        <p>OpenGL</p>
+                        </li>
+                        </li>
+                        <li>
+                        <h3 class="cv-item-title">Others
+                            <span class="rating">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            </span>
+                        </h3>
+                        <p>Git, Bash, Cloud Computing(Google Cloud, AWS), HTML&CSS,
+                        Rest APIs</p>
+                        </li>
+                    </ul>
+                    <h3 class="cv-subsection-title">Soft skills</h3>
+                    <ul class="visible-nodes">
+                        <li>Excellent problem solving skills </li>
+                        <li> Analytical and rational approach </li>
+                        <li> Ability to provide and receive constructive feedback </li>
+                        <li> Capacity to summarize complex topics in an accessible manner </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <h2 class="cv-section-title">Projects</h2>
+                <div class="center">
+                    <div class="project-synopsis">
+                        <h3 class="project-title">Minesweeper</h3>
+                        <p>Nostalgia driven projects of recreating the old
+                        version of Minesweeper as closely as possible (at least
+                        in terms of functionality) in PyGame.</p>
+                        
+                        <button class="btn"><a href="#python1">Details</a></button>
+                    </div>
+                    <div class="project-synopsis">
+                        <h3 class="project-title">FEISol</h3>
+                        <p>Library for solving fully non-linear PDE Solver based on FEniCS library
+                        developed during my PhD.</p>
+                        
+                        <button class="btn"><a href="#python2">Details</a></button>
+
+                    </div>
+                    <div class="project-synopsis">
+                        <h3 class="project-title">Corona tracking website</h3>
+                        <p>Simple webapp giving access to basic statistics and
+                        graphs visualising infection rates of Coronavirus around
+                        the world.</p>
+                        
+                        <button class="btn"><a href="#java">Details</a></button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section class="projects" id="projects">
+        <h1 class="section-title">Projects</h1>
+        <div class="container container-projects">
+            <div class="project" id="python1">
+                <h2 class="project-title">Minesweeper</h2>
+                <img src="img/saper.png" alt="">
+                <div class="project-description">
+                    <p>Who of us have not spent hours trying to slice seconds of
+                    their personal best score in Minesweeper? Well, I know I
+                    have. But the newer versions of Minesweeper were just
+                    missing the charm of the old version so I decided to create 
+                    a worthy tribute to my memories.</p>
+                    <p>The implementation is as simple as it gets. You can
+                    choose difficulty level and check your high scores. That's
+                    it. From the mechanical point of view I tried to get as as
+                    close to the original version as possible. Visuals were not
+                    prioritized although in a sense they reflect the rough charm
+                    of the original version.</p>
+                </div>
+                <button class="btn btn-dark"><a href="https://github.com/BJaroszkowski/Minesweeper">Source Code</a></button>
+            </div>
+            <div class="project" id="python2">
+                <h2 class="project-title">FEISol</h2>
+                <img src="img/graf.png" alt="">
+                <div class="project-description">
+                    <p>This project is result of my research as a PhD student.
+                    This is a demo of a fully nonlinear PDE solver based on
+                     the FEniCS Project. In simple words it allows to visualize
+                    solutin to partial differential equations. I address the
+                    next paragraph to those more mathematically inclined.
+                    </p>
+                    <p> FEISol was designed for
+                        solving Isaacs problems with general Dirichlet
+                        boundary conditions and Hamilton-Jacobi-Bellman
+                        problems with general mixed boundary conditions
+                        using FEM with P1 elements. This solver is suitable
+                        for problems in non-divergence form, including
+                        those with degenerate diffusion and posed on nonconvex domains.</p>
+                </div>
+                <button class="btn btn-dark"><a href="https://github.com/BartoszJaroszkowski/FEISol">Source Code</a></button>
+            </div>
+            <div class="project" id="java">
+                <h2 class="project-title">Corona Tracker</h2>
+                <img src="img/corona.png" alt="">
+                <div class="project-description">
+                    <p>This a simple webapp put together for personal use of me
+                    and my family in order to address the fact that most site
+                    with Coronavirus statistics seemed to prioritize visuals
+                    over accessibility of data.</p>
+                    <p>It is as simple as it gets - couple of times a day this
+                    webapp fetches data from John Hopkins repository and
+                    presents them in an easily sortable table of individual
+                    country statistics. After clicking on the country name we
+                    gain access to plots created with Google Charts.</p>
+                </div>
+                <button class="btn btn-dark"><a href="https://github.com/BJaroszkowski/corona">Source Code</a></button>
+            </div>
+                </div>
+    </section>
+
+
+    <section class="dark sm-padding" id="contact">
+        <h1>Contact</h1>
+        <ul class="contact-list">
+            <li><i class="fas fa-mobile-alt"></i>+48 575 056 229</li>
+            <li><i class="fas fa-envelope"></i><a
+            href="mailto:bjaroszkowski@gmail.com">bjaroszkowski@gmail.com</a></li>
+            <li><i class="fab fa-github"></i><a href="#">BJaroszkowski</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+
+
+    <footer>
+        <div class="footer-bot">
+            Copyright &copy; 2021 Bartosz Jaroszkowski
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
